@@ -96,8 +96,8 @@ USE_L10N = True
 
 # Disabling time zone support and using local time for web interface and storage.
 # See: https://docs.djangoproject.com/en/1.5/ref/settings/#time-zone
-USE_TZ = False
-TIME_ZONE = None
+USE_TZ = True
+TIME_ZONE = 'America/Chicago'
 
 # Unique secret key generator.
 # Secret key will be placed in secret_key.py file.
